@@ -1,10 +1,7 @@
 enablePlugins(JavaServerAppPackaging)
-
 name := "goticks"
-
 version := "1.0"
-
-organization := "com.goticks" 
+organization := "com.goticks"
 
 libraryDependencies ++= {
   val akkaVersion = "2.5.4"
